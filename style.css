@@ -22,6 +22,7 @@ body{
     gap: 15px;
     height: 250px;
     width: 400px;
+    cursor: pointer;
 }
 
 .gallery .images{
