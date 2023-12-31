@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body id="pictures">
+    
+<div class="gallery" id="pictures">
+    <img class="images" src="Images/1.jpg" alt="" srcset="">
+    <img class="images" src="Images/2.jpg" alt="" srcset="">
+    <img class="images" src="Images/3webp.webp" alt="" srcset="">
+    <img class="images" src="Images/4.jpg" alt="" srcset="">
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+<script>
+    VANTA.BIRDS({
+      el: "#pictures",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      quantity: 5.00
+    })
+    </script>
+
+ </body>
+ </html>
